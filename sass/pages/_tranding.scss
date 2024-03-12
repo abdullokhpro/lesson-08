@@ -1,0 +1,72 @@
+.tranding {
+  &__title {
+    margin-bottom: 56px;
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 64px;
+    color: $text-cl;
+  }
+
+  &__cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+  }
+
+  &__card {
+    width: 295px;
+    position: relative;
+
+    &__btn {
+      position: absolute;
+      left: 80px;
+      top: 55%;
+      padding: 4px 24px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 26px;
+      color: white;
+      background-color: #4586d6;
+    }
+
+    &__text {
+      margin-top: 27px;
+      margin-bottom: 8px;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px;
+      color: $text-cl;
+    }
+  }
+}
+
+.ap-tab {
+  margin-bottom: 40px;
+  &-list {
+    display: flex;
+    gap: 24px;
+    // justify-content: center;
+  }
+
+  &-link {
+    font-size: 16px;
+    line-height: 32px;
+    padding: 8px 72px;
+    color: #aaaaaa;
+    border-radius: 5px;
+    transition: 0.4s;
+  }
+
+  &-link:hover {
+    background-color: $primary-cl;
+    color: #fff;
+  }
+
+  &-link:focus {
+    background-color: $primary-cl;
+    color: #fff;
+  }
+}

@@ -1,0 +1,18 @@
+@mixin global-btn {
+  padding: 8px 32px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 30px;
+  color: $text-cl;
+  background-color: transparent;
+  border: 1px solid $text-cl;
+  border-radius: 8px;
+  transition: 0.4s;
+
+  &:hover {
+    background: $primary-cl;
+    color: #fff;
+    border-color: $primary-cl;
+  }
+}
